@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+  <type>fa</type>
+  <automaton>
+    <state id="1" name="q1">
+      <x>0</x>
+      <y>0</y>
+    </state>
+    <state id="2" name="q2">
+      <x>200</x>
+      <y>0</y>
+      <final/>
+    </state>
+    <state id="603" name="q603">
+      <x>0</x>
+      <y>0</y>
+    </state>
+    <state id="604" name="q604">
+      <x>200</x>
+      <y>0</y>
+    </state>
+    <state id="605" name="q605">
+      <x>400</x>
+      <y>0</y>
+      <final/>
+    </state>
+    <state id="1206" name="q1206">
+      <x>0</x>
+      <y>0</y>
+    </state>
+    <state id="1207" name="q1207">
+      <x>200</x>
+      <y>0</y>
+    </state>
+    <state id="1208" name="q1208">
+      <x>400</x>
+      <y>0</y>
+    </state>
+    <state id="1209" name="q1209">
+      <x>600</x>
+      <y>0</y>
+    </state>
+    <state id="1210" name="q1210">
+      <x>800</x>
+      <y>0</y>
+      <final/>
+    </state>
+    <state id="1811" name="q1811">
+      <x>0</x>
+      <y>0</y>
+    </state>
+    <state id="1812" name="q1812">
+      <x>200</x>
+      <y>0</y>
+    </state>
+    <state id="1813" name="q1813">
+      <x>400</x>
+      <y>0</y>
+    </state>
+    <state id="1814" name="q1814">
+      <x>600</x>
+      <y>0</y>
+    </state>
+    <state id="1815" name="q1815">
+      <x>800</x>
+      <y>0</y>
+      <final/>
+    </state>
+    <state id="2416" name="q2416">
+      <x>0</x>
+      <y>0</y>
+    </state>
+    <state id="2417" name="q2417">
+      <x>200</x>
+      <y>0</y>
+    </state>
+    <state id="2418" name="q2418">
+      <x>400</x>
+      <y>0</y>
+    </state>
+    <state id="2419" name="q2419">
+      <x>600</x>
+      <y>0</y>
+      <final/>
+    </state>
+    <state id="0" name="q0">
+      <x>-400</x>
+      <y>2820</y>
+      <initial/>
+      <final/>
+    </state>
+    <transition>
+      <from>0</from>
+      <to>1</to>
+      <read>b</read>
+    </transition>
+    <transition>
+      <from>1</from>
+      <to>2</to>
+      <read>e</read>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>603</to>
+      <read>s</read>
+    </transition>
+    <transition>
+      <from>603</from>
+      <to>604</to>
+      <read>h</read>
+    </transition>
+    <transition>
+      <from>604</from>
+      <to>605</to>
+      <read>e</read>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1206</to>
+      <read>t</read>
+    </transition>
+    <transition>
+      <from>1206</from>
+      <to>1207</to>
+      <read>h</read>
+    </transition>
+    <transition>
+      <from>1207</from>
+      <to>1208</to>
+      <read>e</read>
+    </transition>
+    <transition>
+      <from>1208</from>
+      <to>1209</to>
+      <read>i</read>
+    </transition>
+    <transition>
+      <from>1209</from>
+      <to>1210</to>
+      <read>r</read>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>1811</to>
+      <read>a</read>
+    </transition>
+    <transition>
+      <from>1811</from>
+      <to>1812</to>
+      <read>b</read>
+    </transition>
+    <transition>
+      <from>1812</from>
+      <to>1813</to>
+      <read>o</read>
+    </transition>
+    <transition>
+      <from>1813</from>
+      <to>1814</to>
+      <read>u</read>
+    </transition>
+    <transition>
+      <from>1814</from>
+      <to>1815</to>
+      <read>t</read>
+    </transition>
+    <transition>
+      <from>0</from>
+      <to>2416</to>
+      <read>m</read>
+    </transition>
+    <transition>
+      <from>2416</from>
+      <to>2417</to>
+      <read>a</read>
+    </transition>
+    <transition>
+      <from>2417</from>
+      <to>2418</to>
+      <read>n</read>
+    </transition>
+    <transition>
+      <from>2418</from>
+      <to>2419</to>
+      <read>y</read>
+    </transition>
+  </automaton>
+</structure>
